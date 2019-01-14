@@ -3,9 +3,60 @@
     src: url('../fonts/DejaVuSans-ExtraLight.ttf');
 }
 
+@font-face{
+    font-family: 'DejaVuSans-Condensed';
+    src: url('../fonts/dejavusanscondensed.ttf');
+}
+
+@font-face{
+    font-family: 'DejaVuSans-Condensed-Bold';
+    src: url('../fonts/dejavusanscondensedbold.ttf');
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+}
+
 .top_menu{
     height: 33px;
     background-color: #003388;
+}
+
+.hot-line{
+    
+    color: #003388;
+    
+    float: right;
+    
+}
+
+.hot-line .callback-btn{
+    font-family: 'DejaVuSans-Condensed-Bold', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 63px  10px  33px ;
+    color: #e8e8e8;
+    border-radius: 20px;
+    background-color: #ff4400;
+    border: 0px;
+}
+
+.hot-line .txt{
+    font-family: 'DejaVuSans-Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.hot-line > div{
+    display: inline-block;
+    
+}
+
+.hot-line .tel{
+    font-size: 18px;
+    font-family: 'DejaVuSans-Condensed-Bold', sans-serif;
+    
 }
 
 .top_menu__ul li{
@@ -17,11 +68,42 @@
     border-right: 1px  solid #e8e8e8;
 }
 
-.top_menu__ul li:first-child{
+.menu-top__second{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.menu-top__second .navbar-nav li a{
+    font-family: DejaVuSans-Condensed, sans-serif;
+    text-transform: uppercase;
+    color: #003388 !important;
+    font-size: 15px;
+}
+
+.menu-top__second .logo{
+    width: 150px;
+    height: 85px;
+    float: left;
+    
+}
+
+.menu-top__second .logo img{
+    max-width: 100%;
+}
+
+.menu-top__second .nav-link.active{
+    color: #ff6622 !important;
+}
+
+.menu-top__second nav{
+    background: transparent !important;
+}
+
+.top_menu__ul li:first-child, .menu-top__second li:first-child{
     padding-left: 0;
 }
 
-.top_menu__ul li:last-child{
+.top_menu__ul li:last-child, .menu-top__second li:last-child{
     border-right: 0px solid #e8e8e8;
 }
 
@@ -36,7 +118,11 @@
     background-color: #003388 !important;
 }
 
-.nav-item a{
+.menu-top__second .navbar{
+    width: unset;
+}
+
+.first-line .nav-item a{
     font-family: DejaVuSans-ExtraLight, sans-serif;
     font-size: 12px;
     padding-right: 15px !important;
@@ -82,3 +168,10 @@
     color: #e8e8e8;
     margin-left: 7px;
 }*/
+
+header{
+    height: 680px;
+    background: url(../img/bg.jpg) no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: local('DejaVu Sans Condensed'), local('DejaVuSansCondensed'), url('dejavusanscondensed.woff2') format('woff2'), url('dejavusanscondensed.woff') format('woff'), url('dejavusanscondensed.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: local('DejaVu Sans Condensed Oblique'), local('DejaVuSansCondensed-Oblique'), url('dejavusanscondensedoblique.woff2') format('woff2'), url('dejavusanscondensedoblique.woff') format('woff'), url('dejavusanscondensedoblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: local('DejaVu Sans Condensed Bold'), local('DejaVuSansCondensed-Bold'), url('dejavusanscondensedbold.woff2') format('woff2'), url('dejavusanscondensedbold.woff') format('woff'), url('dejavusanscondensedbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: local('DejaVu Sans Condensed Bold Oblique'), local('DejaVuSansCondensed-BoldOblique'), url('dejavusanscondensedboldoblique.woff2') format('woff2'), url('dejavusanscondensedboldoblique.woff') format('woff'), url('dejavusanscondensedboldoblique.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
